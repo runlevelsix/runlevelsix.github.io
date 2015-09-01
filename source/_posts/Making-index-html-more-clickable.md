@@ -3,6 +3,7 @@ date: 2015-08-31 15:28:13
 tags:
 - offline
 - content-distribution
+thumbnailImage: browser-world.png
 ---
 
 In my work recently I've been grappling with an unexpected problem when physically distributing offline web(apps|sites|files) to users of mobile phones using microSD cards or .zip files. What's the problem? The person receiving the files doesn't know that she is supposed to tap the `index.html` file to open the app/site. And if she received the files as a zipped file, she doesn't know how (or her phone doesn't offer) to extract the contents.

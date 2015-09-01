@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="English">
+    
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" >
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="Runlevel Six">
+    <title>Making &#39;index.html&#39; more clickable - Runlevel Six</title>
+    <meta name="author" content="Jay Clark">
+    
+    
+        <link rel="alternative" type="application/atom+xml" title="RSS" href="/atom.xml">
+    
+    <meta name="description" content="In my work recently I’ve been grappling with an unexpected problem when physically distributing offline web(apps|sites|files) to users of mobile phones using microSD cards or .zip files. What’s the pr">
+<meta property="og:type" content="blog">
+<meta property="og:title" content="Making 'index.html' more clickable">
+<meta property="og:url" content="http://runlevelsix.com/2015/08/Making-index-html-more-clickable/index.html">
+<meta property="og:site_name" content="Runlevel Six">
+<meta property="og:description" content="In my work recently I’ve been grappling with an unexpected problem when physically distributing offline web(apps|sites|files) to users of mobile phones using microSD cards or .zip files. What’s the pr">
+<meta property="og:updated_time" content="2015-09-01T20:43:27.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Making 'index.html' more clickable">
+<meta name="twitter:description" content="In my work recently I’ve been grappling with an unexpected problem when physically distributing offline web(apps|sites|files) to users of mobile phones using microSD cards or .zip files. What’s the pr">
+<meta name="twitter:creator" content="@rlsix">
+    
+    
+    
+        <meta property="og:image" content="http://www.gravatar.com/avatar/d9b0f4e3bb558b1b6f0c16432bab95d9?s=640"/>
+    
+    
+        <meta property="og:image" content="/2015/08/Making-index-html-more-clickable/browser-world.png"/>
+        <meta class="swiftype" name="image" data-type="enum" content="http://runlevelsix.com/2015/08/Making-index-html-more-clickable/browser-world.png" />
+    
+    
+    
+    <!--STYLES-->
+    <link rel="stylesheet" href="/assets/css/style.min.css" type="text/css">
+    <!--STYLES END-->
+    
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-67004410-1']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+
+</head>
+
+    <body>
+        <div id="blog">
+            <header id="header" data-behavior="3">
+    <i id="btn-open-sidebar" class="fa fa-lg fa-bars"></i>
+    <h1 class="header-title">
+        <a class="header-title-link" href="/ ">Runlevel Six</a>
+    </h1>
+    
+        <a class="header-right-picture" href="/#about">
+            <img class="header-picture" src="http://www.gravatar.com/avatar/d9b0f4e3bb558b1b6f0c16432bab95d9?s=90"/>
+        </a>
+    
+</header>
+            <nav id="sidebar" data-behavior="3">
+    
+        <div class="sidebar-profile">
+            <a href="/#about">
+                
+                    <img class="sidebar-profile-picture" src="http://www.gravatar.com/avatar/d9b0f4e3bb558b1b6f0c16432bab95d9?s=90"/>
+                
+            </a>
+            <span class="sidebar-profile-name">Jay Clark</span>
+        </div>
+    
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/ "
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-home"></i>
+                    <span class="sidebar-button-desc">Home</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link st-search-show-outputs"
+                         href="/#search"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-search"></i>
+                    <span class="sidebar-button-desc">Search</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/#about"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-question"></i>
+                    <span class="sidebar-button-desc">About</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://github.com/runlevelsix" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-github"></i>
+                    <span class="sidebar-button-desc">GitHub</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://stackoverflow.com/users/1304162/runlevel-six" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-stack-overflow"></i>
+                    <span class="sidebar-button-desc">Stack Overflow</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://twitter.com/rlsix" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-twitter"></i>
+                    <span class="sidebar-button-desc">Twitter</span>
+                </a>
+        </li>
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link " href="https://www.linkedin.com/in/rlsix" target="_blank">
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-linkedin"></i>
+                    <span class="sidebar-button-desc">Linked In</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+        <ul class="sidebar-buttons">
+        
+            <li class="sidebar-button">
+                
+                    <a  class="sidebar-button-link "
+                         href="/atom.xml"
+                        
+                    >
+                
+                    <i class="sidebar-button-icon fa fa-lg fa-rss"></i>
+                    <span class="sidebar-button-desc">RSS</span>
+                </a>
+        </li>
+        
+    </ul>
+    
+</nav>
+
+            
+            <div id="main" data-behavior="3"
+                 class="
+                        hasCoverMetaIn
+                        ">
+                
+<article class="post" itemscope itemType="http://schema.org/BlogPosting">
+    
+    
+        <div class="post-header main-content-wrap text-left">
+    
+        <h1 class="post-title" itemprop="headline">
+            Making &#39;index.html&#39; more clickable
+        </h1>
+    
+    <div class="post-meta">
+    <time itemprop="datePublished" content="Mon Aug 31 2015 16:28:13 GMT-0600">
+	
+		    Aug 31, 2015
+    	
+    </time>
+    
+</div>
+</div>
+    
+    <div class="post-content markdown" itemprop="articleBody">
+        <div class="main-content-wrap">
+            <p>In my work recently I’ve been grappling with an unexpected problem when physically distributing offline web(apps|sites|files) to users of mobile phones using microSD cards or .zip files. What’s the problem? The person receiving the files doesn’t know that she is supposed to tap the <code>index.html</code> file to open the app/site. And if she received the files as a zipped file, she doesn’t know how (or her phone doesn’t offer) to extract the contents.</p>
+<h1 id="An_Example">An Example</h1><p>Let’s say you want to distribute ~4GB of various kinds of multimedia files on a microSD card to people in a developing nation. For this example, the actual content isn’t important, but it is worth knowing that it includes dozens of videos (full-length films and shorter clips), audio files grouped into folders by album, as well as a myriad of text documents in various formats (PDF, HTML, ePub, etc.). Knowing that it will be difficult to indicate all of the important metadata related to the files (title, author, language, category, series, etc), you’ve put a whole lot of work into building an offline web site (a primitive web app, really) that beautifully gives access to the content and the extended information. And, like a good developer, you named the entry-point file <code>index.html</code>.</p>
+<p>Now, you would expect that it would be <em>obvious</em> that the user is supposed to tap on the <code>index.html</code> file. And if the multimedia content is in another language, you would expect them to tap the equivalent file in the local language - <code>memulakan.html</code> in Malay, for example). However, time and time again you’re getting reports like:</p>
+<blockquote>
+<p>This might work, but all of the file and folder names are in English. No one here understands English!</p>
+</blockquote>
+<p>Or</p>
+<blockquote>
+<p>It’s really hard to understand the file structure to know where to go to open the file I want. And why is the folder structure so deep?</p>
+</blockquote>
+<p>It hurts to hear that the well-crafted, painstakingly organized, functionally tested digital library is not being used because the recipient doesn’t know how to use it the <em>right way</em>.</p>
+<h1 id="A_Solution?">A Solution?</h1><p>In addition to the functional testing we’ve done, I think it’s time we also do some usability testing with real users of our product. We need to get out and observe people struggling with that first step of accessing the content so we can better serve them. Now, this could be a bit difficult, as we are based in the US, and our primary users are geographically isolated, primarily offline, have low technology literacy, and usually live beyond the reach of the internet and mobile phone networks.</p>
+<p>As for a technical solution to the question, what are some solutions to this problem that you’ve tried? Does simply renaming the <code>index.html</code> file help? What has worked in your context? Was something more drastic done in order to improve the usefulness of your offline content (such as building a mobile app)? Take part in the discussion and comment below.</p>
+
+            
+                
+
+            
+        </div>
+    </div>
+    <div class="post-footer main-content-wrap">
+        
+            <div class="post-footer-tags">
+                <span class="text-color-light text-small">TAGGED IN</span><br/>
+                
+    <a class="tag tag--primary tag--small t-link" href="/tags/content-distribution/">content-distribution</a> <a class="tag tag--primary tag--small t-link" href="/tags/offline/">offline</a>
+
+            </div>
+        
+        <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+        
+            <div id="disqus_thread">
+    <noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+        
+    </div>
+</article>
+
+
+
+                <footer id="footer" class="main-content-wrap">
+    <span class="copyrights">
+        Copyrights &copy; 2015 Jay Clark. All Rights Reserved.
+    </span>
+</footer>
+
+            </div>
+            
+                <div id="bottom-bar" class="post-bottom-bar" data-behavior="3">
+                    <div class="post-actions-wrap">
+    <nav>
+        <ul class="post-actions post-action-nav">
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <i class="fa fa-angle-left"></i>
+                    <span class="hide-xs hide-sm text-small icon-ml">PREVIOUS</span>
+                </a>
+            </li>
+            <li class="post-action">
+                
+                    <a class="post-action-btn btn btn--disabled">
+                
+                    <span class="hide-xs hide-sm text-small icon-mr">NEXT</span>
+                    <i class="fa fa-angle-right"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <ul class="post-actions post-action-share">
+        <li class="post-action hide-lg hide-md hide-sm">
+            <a class="post-action-btn btn btn--default btn-open-shareoptions"  href="#btn-open-shareoptions">
+                <i class="fa fa-share-alt"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://plus.google.com/share?url=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-google-plus"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-facebook-official"></i>
+            </a>
+        </li>
+        <li class="post-action hide-xs">
+            <a class="post-action-btn btn btn--default" target="new" href="https://twitter.com/intent/tweet?text=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-twitter"></i>
+            </a>
+        </li>
+        
+            <li class="post-action">
+                <a class="post-action-btn btn btn--default" href="#disqus_thread">
+                    <i class="fa fa-comment-o"></i>
+                </a>
+            </li>
+        
+        <li class="post-action">
+            
+                <a class="post-action-btn btn btn--default" href="#">
+            
+                <i class="fa fa-list"></i>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+                </div>
+                <div id="share-options-bar" class="share-options-bar" data-behavior="3">
+    <ul class="share-options">
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://plus.google.com/share?url=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-google-plus"></i><span class="">Share on Google Plus</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://www.facebook.com/sharer/sharer.php?u=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-facebook-official"></i><span>Share on Facebook</span>
+            </a>
+        </li>
+        <li class="share-option">
+            <a class="share-option-btn" target="new" href="https://twitter.com/intent/tweet?text=http://runlevelsix.com/2015/08/Making-index-html-more-clickable/">
+                <i class="fa fa-twitter"></i><span>Share on Twitter</span>
+            </a>
+        </li>
+    </ul>
+</div>
+<div id="share-options-mask" class="share-options-mask"></div>
+            
+        </div>
+        <div id="about">
+    <div id="about-card">
+        <div id="about-btn-close">
+            <i class="fa fa-remove"></i>
+        </div>
+        
+            <img id="about-card-picture" src="http://www.gravatar.com/avatar/d9b0f4e3bb558b1b6f0c16432bab95d9?s=110"/>
+        
+            <h4 id="about-card-name">Jay Clark</h4>
+        
+            <h5 id="about-card-bio"><p>I am a Web &amp; Mobile UX designer/developer with Frontend Development experience. I specialize in offline-first mobile app design and usability testing. I love working in cross-functional teams that can move quickly from idea to design, prototype, and marketable product.<br><small>Background image by <a href='https://www.flickr.com/photos/37574471@N00/2462550872' title='Flickr link to background image' target='_blank'>Philippe Semanaz</a>, CC-BY-SA 2.0</small></p>
+</h5>
+        
+        
+            <h5 id="about-card-job">
+                <i class="fa fa-briefcase"></i>
+                <br/>
+                <p>Mobile and Digital Content Manager</p>
+
+            </h5>
+        
+        
+            <h5 id="about-card-location">
+                <i class="fa fa-map-marker"></i>
+                <br/>
+                Boise, Idaho, USA
+            </h5>
+        
+    </div>
+</div>
+
+        <div id="cover" style="background-image:url('https://farm4.staticflickr.com/3187/2462550872_8e5c02c0bb_o_d.jpg');"></div>
+    </body>
+    <!--SCRIPTS-->
+<script src="/assets/js/script.min.js" type="text/javascript"></script>
+<!--SCRIPTS END-->
+
+    <script type="text/javascript">
+        var disqus_shortname = 'rlsix';
+        (function() {
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+
+
+
+</html>

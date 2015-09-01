@@ -128,7 +128,7 @@ clear_reading: true
 # Head title displayed at the top of the table of contents.
 toc_title: Table of Contents
 # Display thumbnail image of each post on index pages (false: disabled, true: enabled)
-thumbnail_image: false
+thumbnail_image: true
 # Message displayed after the <!-- more --> comment
 read_more_message: Continue reading
 # Message displayed after the <!-- more --> comment or after 300 characters for post with link layout

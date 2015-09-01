@@ -68,9 +68,7 @@ theme: tranquilpeak
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo: git@gihtub.com:runlevelsix/runlevelsix.github.io.git
-  message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}
+  type:
 
 # Feed
 feed:

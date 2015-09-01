@@ -41,6 +41,8 @@ post:
 
 author:
     # Your biography in english (Markdown and HTML supported)
-    bio: "I am a Web & Mobile UX designer/developer with Frontend Development experience. I specialize in offline-first mobile app design, strategy formation, and usability research. I love working in cross-functional teams that can move quickly from idea to design, prototype, and marketable product."
+    bio: "I am a Web & Mobile UX designer/developer with Frontend Development experience. I specialize in offline-first mobile app design and usability testing. I love working in cross-functional teams that can move quickly from idea to design, prototype, and marketable product.
+
+        <small>Background image by <a href='https://www.flickr.com/photos/37574471@N00/2462550872' title='Flickr link to background image' target='_blank'>Philippe Semanaz</a>, CC-BY-SA 2.0</small>"
     # Your job in english
     job: "Mobile and Digital Content Manager"
